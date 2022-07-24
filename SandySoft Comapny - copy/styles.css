@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    color: white;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.navbar{
+    margin-top: 20px;
+    margin-bottom: 10rem;
+}
+div a:hover{
+    color: aqua;
+}
+div a:active{
+    color: aquamarine;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.nav{
+    float: right;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 700px  auto;
+}
+
+.text1{
+    font-size: 1.6rem;
+    margin: 1px 20px;
+    font-family:cursive;
+}
+
+.head{
+    font-size: 76px;
+    margin-left:20px;
+    font-family: 'cera-round-pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.st{
+    background-color: aliceblue;
+    padding: 12px 43px;
+    font-size: 23px;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.st:hover{
+    background-color:antiquewhite;
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+.st:active{
+    color: red;
+}
+
+video{
+    width: auto;
+    height:650px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    margin-top: 9rem;
+}
+.hello{
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+.wow{
+    height: 500px;
+}
+.ease{
+    margin-top: 6rem;
+    margin-left: 6rem;
+    height: 20rem;
+    width: 35rem;
+}
+.term-head{
+    margin-top: 30px;
+    color: white;
+}
+.terms{
+    list-style: none;
+    color: rgb(165, 161, 161);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+ul li{
+    margin-bottom: 10px;
+}
+.grid2{
+    grid-template-columns: 50% 50%;
+}
+li:hover{
+    color:rgb(224, 220, 220) ;
+}
+@media screen and (max-width:300px) {
+
+    .mobile{
+        text-align: center;
+    }
+    
+}

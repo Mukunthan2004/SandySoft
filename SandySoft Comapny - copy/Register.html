@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SandySoft.in-Login</title>
+    <link rel="icon" type="image/svg" href="images/favicon.svg">
+    <script src="https://kit.fontawesome.com/4970b87507.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <video class="background" autoplay loop src="vedios/camera.mp4"></video>
+    <center>
+        <div class="head">
+            <i class="fa-brands fa-skyatlas"> SandySoft</i>
+        </div>   
+        <div class="login">
+            <p class="text-fix">Create a new account</p>
+            <p class="text-fix sub">It's easy try it </p>
+            <hr>
+            <form  action="https://formspree.io/f/moqrgpvw"
+            method="POST">
+                <div>
+                    <input class="input" type="text" placeholder="First name">
+                    <input class="input" type="text" placeholder="Last name">
+                </div>
+                <input class="input email" type="email" placeholder="Email address or Moblie number">
+                <input class="input email" type="password" placeholder="New password">
+                <div>
+                    <label class="text-fix sub age" for="age">Date of Birth</label>
+                    <div class="clear-fix">
+                        <input id="age" class="input" type="number" placeholder="Day">
+                        <input id="age" class="input" type="number" placeholder="Month">
+                        <input id="age" class="input" type="number" placeholder="Year">
+                    </div>
+                </div>
+                <div>
+                    <p class="text-fix sub" >Gender</p>
+                    <div>
+                        <label for="male">Male</label>
+                        <input id="male" type="radio" name="gender">
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input id="female" type="radio" name="gender">
+                    </div>
+                    <div>
+                        <label for="custom">Custom</label>
+                        <input id="custom" type="radio" name="gender">
+                    </div>
+                </div>
+                <p class="policy fix" >People who use our service may have uploaded your contact information to SandySoft.<a href="index.html">Learn more. </a></p>
+                <p class="policy">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+                <button class="submit" type="submit">Submit</button>
+                <button class="clear" type="reset">Clear</button>
+            </form>
+        </div>
+    </center>
+
+</body>
+</html>
